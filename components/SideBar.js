@@ -51,7 +51,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
             </div>
           </div>
         </Link>
-        <Link href="/AddCat">
+        <Link href="/insert">
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors ${
               router.pathname == "/AddCat"
@@ -63,7 +63,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
               <CreditCardIcon className="h-5 w-5" />
             </div>
             <div>
-              <p>Add/Update or Remove a cat</p>
+              <p>Ajouter un chat</p>
             </div>
           </div>
         </Link>
